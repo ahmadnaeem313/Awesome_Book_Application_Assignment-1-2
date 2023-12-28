@@ -1,0 +1,241 @@
+/* Import the Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* Global Reset and Font Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  flex-grow: 1;
+}
+
+
+body {
+  padding: 1em;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+* Navigation Bar Styles */
+/* Navigation Bar Styles */
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 1em 0;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #0056b3;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav > a:hover {
+  background-color: #0978ef;
+  color: #fff;
+}
+
+
+/* Section Styles */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2rem;
+  padding: 2em;
+  background-color: #fff;
+  border: 3px solid #ddd;
+  border-radius: 65px;
+  box-shadow: 0 2px 4px rgb(44, 0, 174);
+}
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1 { color: #270479; font-family: "Great Vibes", Roboto; font-size: 40px; line-height: 50px; font-weight: normal; margin-bottom: 0px; margin-top: 0px; text-align: center; text-shadow: 0 1px 1px #fff; }
+
+
+h2 {
+  font-size: 2em;
+  margin: 1em 0;
+  text-align: center;
+  font-weight: 850;
+  color: #01458e;
+  font-family: "Great Vibes"
+  
+}
+
+/* Book List Styles */
+.all-books {
+  width: 70%;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  overflow-y: auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.book-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.book-div:hover {
+  background-color: #eaeaea;
+}
+
+/* Form Styles */
+.new-book {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start of the container */
+  width: 70%; /* Set a specific width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+input {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 0.3s ease;
+  width: 100%; /* Take up full width of the container */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.add {
+  align-self: flex-end;
+  padding: 0.5em 1.5em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 490px;
+}
+
+.add:hover {
+  background-color: #024c9a;
+}
+/* Contact Section Styles */
+#contact p,
+#contact ul {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+    /* Styling for Contact Information */
+    .contact-info {
+      list-style: none;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-info li {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+      color: #333;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .contact-info li:before {
+      content: "\2022"; /* Bullet character */
+      color: #007bff;
+      margin-right: 10px;
+      flex-shrink: 0;
+    }
+
+    /* Additional style for the Address */
+    .contact-info li:last-child {
+      font-style: italic;
+    }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* Adding a transition effect for box-shadow */
+}
+.footerp{
+  color: rgb(20, 2, 2);
+  font-family: Arial, sans-serif;
+  font-style: italic;
+}
+/* Hover effect on footer */
+footer:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Changing box-shadow on hover */
+}
+
+/* Utility Classes */
+.hidden {
+  display: none !important;
+}
+
+.active {
+  text-decoration: underline;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.successMsg {
+  color: #007bff;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+  opacity: 1; /* Setting initial opacity to 1 */
+}
+
+/* Fade out effect for success message */
+.transparent {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
