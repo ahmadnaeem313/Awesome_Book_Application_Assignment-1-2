@@ -10,7 +10,7 @@ export default class BookClass {
     },
     {
       title: 'Book 2',
-      author: 'SYED KHUBAIB',
+      author: 'SYED ALI badshah',
     },
     {
       title: 'Book 3',
@@ -22,11 +22,11 @@ export default class BookClass {
     },
     {
       title: 'Book 5',
-      author: 'USMAN HASHMI ',
+      author: 'Haider shah ',
     },
     {
       title: 'Book 6',
-      author: 'SHERAZ HASHMI ',
+      author: 'shamsi shah ',
     },
   ];
 
