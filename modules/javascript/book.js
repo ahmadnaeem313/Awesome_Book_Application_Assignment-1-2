@@ -6,7 +6,7 @@ export default class BookClass {
   books = [
     {
       title: 'Book 1',
-      author: 'MUTAHAR HASHMI ',
+      author: 'Ahmad naeem ',
     },
     {
       title: 'Book 2',
@@ -14,19 +14,19 @@ export default class BookClass {
     },
     {
       title: 'Book 3',
-      author: 'ADAN HASHMI ',
+      author: 'ADNAN SHAH ',
     },
     {
       title: 'Book 4',
-      author: 'MUHAMMAD',
+      author: 'MUHAMMAD ALI',
     },
     {
       title: 'Book 5',
-      author: 'USMAN HASHMI ',
+      author: ' HAIDER NAQVI ',
     },
     {
       title: 'Book 6',
-      author: 'SHERAZ HASHMI ',
+      author: 'SHERAZ  SHAH ',
     },
   ];
 
