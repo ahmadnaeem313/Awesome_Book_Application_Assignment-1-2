@@ -6,7 +6,7 @@ export default class BookClass {
   books = [
     {
       title: 'Book 1',
-      author: 'MUTAHAR HASHMI ',
+      author: 'Ahmad naeem ',
     },
     {
       title: 'Book 2',
